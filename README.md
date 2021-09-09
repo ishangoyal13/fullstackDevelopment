@@ -25,3 +25,9 @@ Hacktoberfest is open to everyone in our global community. Whether you’re a de
 
 ## How to rebase and update Pull Request
 [Rebasing and Updating Pull Request](https://www.digitalocean.com/community/tutorials/how-to-rebase-and-update-a-pull-request)
+
+
+
+![Opensource](https://img.shields.io/badge/openSource-%E2%9D%A4-blue)
+![PR](https://img.shields.io/badge/PRs-welcome-green)
+![hacktoberfest](https://img.shields.io/badge/Hacktoberfest-2021-red)
