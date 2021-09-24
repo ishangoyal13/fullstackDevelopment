@@ -7,8 +7,8 @@ Get your free T-shirt with us ;)
 
 ![Opensource](https://img.shields.io/badge/openSource-%E2%9D%A4-blue) ![PR](https://img.shields.io/badge/PRs-welcome-green) ![hacktoberfest](https://img.shields.io/badge/Hacktoberfest-2021-red)
 
-## C & C++ Folder
-Kindly submit all your **C & C++** programs in this folder. 
+## JavaScript Folder
+Kindly submit all your **JavaScript** programs in this folder. 
 To submit programs of other languages we have folders of them also. Make Pull Request of your programs accordingly.
 Note:- If anyone opened the pull request with programs in wrong folder then it will not be merged. You have to reopen it again in correct folder.
 
