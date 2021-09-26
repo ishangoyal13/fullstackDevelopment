@@ -1,11 +1,10 @@
+<img src="https://i.ibb.co/cgNjFRR/hacktober.png" width="100%">
+<h1 style="text-align:center"> 🎃 HacktoberFest-2021 🎃</h1>
 
-# 🎃 [HacktoberFest-2021](https://hacktoberfest.digitalocean.com/) 🎃
-
-<a href="https://ibb.co/w0KfW88"><img src="https://i.ibb.co/cgNjFRR/hacktober.png" alt="hacktober" border="0"></a>
 
 **Official Repository by for Hacktoberfest**
 
-__Get your free T-shirt with us ;)__
+__Get your free T-shirt with us 😉__
 
 ![Opensource](https://img.shields.io/badge/openSource-%E2%9D%A4-blue) ![PR](https://img.shields.io/badge/PRs-welcome-green) ![hacktoberfest](https://img.shields.io/badge/Hacktoberfest-2021-red) ![friendly](https://img.shields.io/badge/beginner-friendly-l)
 
@@ -19,22 +18,24 @@ Hacktoberfest is open to everyone in our global community. Whether you’re a de
 # <span style="color:red;font-size:40px"> Rules </span>
   🌟 To earn your Hacktoberfest t-shirt or tree reward, you must register and make four valid pull requests (PRs) between October 1-31 (in any time zone). PRs can be made to any public repo on GitHub, not only the ones with issues labeled Hacktoberfest. If a maintainer reports your pull request as spam or behavior not in line with the project’s code of conduct, you will be ineligible to participate. This year, the first 70,000 participants who successfully complete the challenge will be eligible to receive a prize.
   🌟 Kindly put your programs in the correct folder.
-### Getting started with git
+### Getting started with git 🚀
 [Git Tutorial](https://www.digitalocean.com/community/tutorials/how-to-contribute-to-open-source-getting-started-with-git)
 
 [Git CheatSheet](https://www.digitalocean.com/community/cheatsheets/how-to-use-git-a-reference-guide)
 
-### How to create a Pull Request
+### How to create a Pull Request 🌸
 [Creating Pull Request](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github)
 
-### How to rebase and update Pull Request
+### How to rebase and update Pull Request 🌟
 [Rebasing and Updating Pull Request](https://www.digitalocean.com/community/tutorials/how-to-rebase-and-update-a-pull-request)
 
+### Star and Fork this Repository 👇🏻
+###### ⚡  You can star ⭐ and fork 🍽️ this repository on GitHub by navigating at the top of this repository.
+###### ⚡  GitHub repository URLs will reference both the username associated with the owner of the repository, as well as the repository name.
+###### ⚡  When you’re on the main page for the repository, you’ll see a button to "Star" and “Fork” the repository on your upper right-hand side of the page, underneath your user icon.
 
+<h2 style="text-align:center; font-family: monotype">😎🙏 Thanks to Our Awesome Contributors 🙏😎</h2>
 <div align="center">
-<span style="color:red; font-size:1.5rem; font-family:monotype"> Made with ❤ </span> 
-<br />
-<br />
 <a href="https://twitter.com/IshanGoyal1308">
  <img src="https://user-images.githubusercontent.com/63895602/122171696-a2b6ac00-ce9d-11eb-8831-2ec5964bdd5f.png" width="30" height="30">
 </a>
