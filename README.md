@@ -1,5 +1,5 @@
 <img src="https://i.ibb.co/cgNjFRR/hacktober.png" width="100%">
-<h1 style="text-align:center"> 🎃 HacktoberFest-2021 🎃</h1>
+<h1 align="center"> 🎃 HacktoberFest-2021 🎃</h1>
 
 
 **Official Repository by for Hacktoberfest**
@@ -34,7 +34,7 @@ Hacktoberfest is open to everyone in our global community. Whether you’re a de
 ###### ⚡  GitHub repository URLs will reference both the username associated with the owner of the repository, as well as the repository name.
 ###### ⚡  When you’re on the main page for the repository, you’ll see a button to "Star" and “Fork” the repository on your upper right-hand side of the page, underneath your user icon.
 
-<h2 style="text-align:center; font-family: monotype">😎🙏 Thanks to Our Awesome Contributors 🙏😎</h2>
+<h2 align="center">😎🙏 Thanks to Our Awesome Contributors 🙏😎</h2>
 <div align="center">
 <a href="https://twitter.com/IshanGoyal1308">
  <img src="https://user-images.githubusercontent.com/63895602/122171696-a2b6ac00-ce9d-11eb-8831-2ec5964bdd5f.png" width="30" height="30">
