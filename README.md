@@ -15,9 +15,13 @@ Hacktoberfest is open to everyone in our global community. Whether you’re a de
 2. Pull requests can be made in any GitHub-hosted repositories/projects.
 3. You can sign up anytime between October 1 and October 31.
 
-# <span style="color:red;font-size:40px"> Rules </span>
-  🌟 To earn your Hacktoberfest t-shirt or tree reward, you must register and make four valid pull requests (PRs) between October 1-31 (in any time zone). PRs can be made to any public repo on GitHub, not only the ones with issues labeled Hacktoberfest. If a maintainer reports your pull request as spam or behavior not in line with the project’s code of conduct, you will be ineligible to participate. This year, the first 70,000 participants who successfully complete the challenge will be eligible to receive a prize.
-  🌟 Kindly put your programs in the correct folder.
+# Rules 
+  🌟 To earn your Hacktoberfest t-shirt or tree reward, you must register and make four valid pull requests (PRs) between October 1-31 (in any time zone). PRs can be made to any public repo on GitHub, not only the ones with issues labeled Hacktoberfest. If a maintainer reports your pull request as spam or behavior not in line with the project’s code of conduct, you will be ineligible to participate.  
+# Instructions 🙌     
+  🌟 Kindly put your programs in the correct folder.   
+  🌟 Repeated codes will not be merged.  
+  🌟 Kindly submit quality codes as "***The quality of pull requests is paramount; quantity comes second***". Example- DSA questions code etc.  
+  🌟 You can also push any of your project in this repository. Make sure to open an issue first for that.
 ### Getting started with git 🚀
 [Git Tutorial](https://www.digitalocean.com/community/tutorials/how-to-contribute-to-open-source-getting-started-with-git)
 
