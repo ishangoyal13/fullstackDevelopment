@@ -1,5 +1,6 @@
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.QUNOSCZwWa3NI5FOtKurUwHaCs%26pid%3DApi&f=1" width="100%" />
 
-# 🎃 [HacktoberFest-2021](https://hacktoberfest.digitalocean.com/) 🎃
+<h1 align="center"> 🎃 HacktoberFest-2021 🎃</h1>
 
 Official Repository by for Hacktoberfest.
 
@@ -7,10 +8,13 @@ Get your free T-shirt with us ;)
 
 ![Opensource](https://img.shields.io/badge/openSource-%E2%9D%A4-blue) ![PR](https://img.shields.io/badge/PRs-welcome-green) ![hacktoberfest](https://img.shields.io/badge/Hacktoberfest-2021-red)
 
-## Python Folder
-Kindly submit all your **Python** programs in this folder. 
-To submit programs of other languages we have folders of them also. Make Pull Request of your programs accordingly.
-Note:- If anyone opened the pull request with programs in wrong folder then it will not be merged. You have to reopen it again in correct folder.
+## Web Dev Folder
+If you have any web dev project and want to show case it to other people then this is a good opportunity for you.  
+All you have to do is upload your project folder under "Web Dev folder". Make sure you aren't messing up the main folder with your files.  
+Don't forget to deploy it on gh-page or netlify or heroku or any other source to show the live preview.  
+At last but not the least, create a readme file and embed live preview link in it.  
+You can design readme as you like 😉 
+
 
 # What is HacktoberFest
 Hacktoberfest is open to everyone in our global community. Whether you’re a developer, student learning to code, event host, or company of any size, you can help drive growth of open source and make positive contributions to an ever-growing community. All backgrounds and skill levels are encouraged to complete the challenge.
