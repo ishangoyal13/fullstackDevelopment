@@ -1,4 +1,4 @@
-<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.QUNOSCZwWa3NI5FOtKurUwHaCs%26pid%3DApi&f=1" width="100%" />
+<img src="https://www.budapest.com/w/promoart/promo_1487_en.jpg" width="100%" height="50%" />
 
 <h1 align="center"> 🎃 HacktoberFest-2021 🎃</h1>
 
