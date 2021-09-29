@@ -1,5 +1,6 @@
-<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.JoH9VyXCR6AEx4LYbfdzaAHaCe%26pid%3DApi&f=1" width="100%" />
-# 🎃 [HacktoberFest-2021](https://hacktoberfest.digitalocean.com/) 🎃
+<img src="https://www.programmerspoint.in/images/java-corporate.jpg" width="100%" height="80%" />
+
+<h1 align="center"> 🎃 HacktoberFest-2021 🎃 </h1>
 
 Official Repository by for Hacktoberfest.
 
