@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/029-DJ.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Musify</title>
+</head>
+<body>
+    <div class="player">
+        <div class="container">
+
+            <!-- ==== Top Icons ====  -->
+            <div class="icons">
+                <a href="#"><i class="fa fa-bars"></i></a>
+                <h1>MUSIFY</h1>
+                <a href="#"><i class="fa fa-heart"></i></a>
+            </div>
+
+            <!-- ==== img ==== -->
+            <div class="img">
+                <img src="cover1.jpg" alt=""/>
+            </div>
+
+            <!-- ==== Title ==== -->
+            <div class="title">
+                <h1>BANG BANG</h1>
+                <p>Artists - TUPAC, SNOOP DOGG</p>
+            </div>
+
+            <!-- ==== Time ==== -->
+            <div class="time">
+                00:00
+                <span></span>
+                00:00
+            </div>
+
+            <!-- ==== Seek Bar ==== -->
+            <div class="seek">
+                <div></div>
+            </div>
+
+            <!-- ============== Audio Buttons ==============  -->
+
+            <div class="audio-btns">
+                <div class="play-btns">
+                    <a href="#" onclick="prevAudio()"><i class="fa fa-backward"></i></a>
+                    <a href="#" class="play-pause" onclick="togglePlayPause()"><i class="fa fa-play"></i></a>
+                    <a href="#" onclick="nextAudio()"><i class="fa fa-forward"></i></a>
+                </div>
+                <div class="repeat-btns">
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                    <span>
+                        <button class="decrease" onclick="decreaseVolume()">-</button>
+                        <a href="#" class="volume-up"><i class="fa fa-volume-up"></i></a>
+                        <button class="increase" onclick="increaseVolume()">+</button>
+                    </span>
+                    <a href="#"><i class="fa fa-random"></i></a>
+                </div>
+            </div>
+        
+
+        </div>
+    </div>
+    
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
