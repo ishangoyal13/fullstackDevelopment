@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/cgNjFRR/hacktober.png" width="100%">
+<img src="https://i.ibb.co/rM3QW72/ishangoyal13-Hacktoberfest2021-Hacktoberfest-2021-contribution-repository-github-com.png" width="100%" >
 <h1 align="center"> 🎃 HacktoberFest-2021 🎃</h1>
 
 
