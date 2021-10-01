@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODOs List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header>
+        <nav>
+            <ul>
+                <p class="aabc">TODOs List</p>
+            </ul>
+        </nav>
+    </header>
+
+
+    <p class="headi">TODOs List</p>
+    <br>
+
+
+    <div class="cont">
+        <div class="a1">
+            <p class="b1">Tittle</p>
+            <input type="text" class="inputtex" id="tittletexe">
+            <p class="b1">Add an item to list</p>
+        </div>
+        <br>
+        
+    
+
+        <div class="a2">
+            <p class="b1">Description</p>
+            <textarea name="lname" id="listheading"  ></textarea>
+            <br>
+            <br>
+            <button class="add" id="add">Add to List</button>
+            <button class="add clr" onclick="clearstorage()">Clear List</button>
+        </div>
+        <br>
+        <br>
+        <br>
+
+
+
+
+
+
+
+
+        <table >
+            <caption>Your Items</caption>
+
+            
+            <thead>
+                
+                <tr>
+                    <th>SNo.</th>
+                    <th>Item Tittle</th>
+                    <th>Item Description</th>
+                    <th>Action</th>
+                </tr>
+
+                
+            </thead>
+
+            <tbody id="tablebody">
+                <tr>
+                    <td>1</td>
+                    <td>Get your Coffee</td>
+                    <td>You need coffee as you are a coder</td>
+                    <td><button class="adde" id="dele">Delete</button></td>
+                </tr>
+            </tbody>
+            
+
+        </table>
+
+        
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

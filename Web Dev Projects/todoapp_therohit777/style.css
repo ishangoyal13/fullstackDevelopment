@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(7, 247, 115);
+}
+nav{
+    background-color: rgb(39, 38, 38);
+    color: white;
+    height: 12vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5vw;
+    display: flex;
+    align-items: center;
+}
+.aabc{
+    margin-left: 2vw;
+}
+.headi{
+    text-align: center;
+    margin-top: 2.5vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 38.4px;
+    font-weight: 800;
+    
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.inputtex{
+    padding: 10px 46vw 10px 0 ;
+    border-radius: 10px;
+    border: none;
+}
+#listheading{
+    padding: 10px 46vw 10px 0;
+    border-radius: 10px;
+    border: none;
+}
+.b1{
+    color: rgb(37, 36, 36);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.add{
+    color: white;
+    background-color: rgb(29, 31, 30);
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: white;
+}
+hr{
+    padding: 0px 29.5vw;
+}
+
+.clr{
+    margin-left: 10px;
+}
+
+.add:hover{
+    background-color: black;
+}
+
+table{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.726);
+    height: 26vh;
+    padding-top: 10px;
+}
+caption{
+    color: black;
+    font-size: 28.2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+thead{
+    text-decoration: underline;
+}
+th{
+    width: 500px;
+}
+td{
+    text-align: center;
+}
+.adde{
+    color: white;
+    background-color: rgb(3, 176, 245);
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: white;
+}
+.adde:hover{
+    background-color: blue;
+}
+
+
+
