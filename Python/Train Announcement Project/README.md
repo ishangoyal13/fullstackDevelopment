@@ -22,5 +22,5 @@ Announcement is generated in the below three languages:
 
 * Used **gTTS(Google Text-to-Speech)** to translate text to speech.
 
-
+Also download and add path of ffmpeg to your environment variables
 
