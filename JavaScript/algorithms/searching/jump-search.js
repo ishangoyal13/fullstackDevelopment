@@ -1,7 +1,7 @@
 // Searches for specific element in a given array using the jump search algorithm
 // Time complexity: O(log N)
 
-function jumpSearch(sortedArray, seekIndex) {
+const jumpSearch = (sortedArray, seekIndex) => {
 	const arrayLength = sortedArray.length;
 	if (!arrayLength) {
 		return -1;
@@ -33,7 +33,7 @@ function jumpSearch(sortedArray, seekIndex) {
 	}
 
 	return -1;
-}
+};
 
 console.log(jumpSearch([], 2)); // result: -1
 console.log(jumpSearch([1, 2, 3, 4, 5, 6], 10)); // result: -1
