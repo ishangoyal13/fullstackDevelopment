@@ -1,44 +1,33 @@
-#include<iostream>
-#include<conio.h>
-#include<bits/stdc++.h>
+
+#include <iostream>
 using namespace std;
-struct Node
-{
+struct node{
     int data;
-    struct Node* next;
+    node *ptr;
 };
-
-void push(struct Node** head,int x)
-{
-    struct Node* newnode = new Node;
-    newnode->data = x;
-    newnode->next = *head;
-    *head = newnode;
+struct node *head=NULL;
+void insert(int a){
+    struct node *temp=new node;
+    temp->data=a;
+    temp->ptr=head;
+    head=temp;
 }
-
-bool search(struct Node* head,int x)
-{
-    if(head == NULL)
-        return false;
-    if(head->data==x)
-        return true;
-    return search(head->next,x);
+void display(){
+    struct node *p;
+    p=head;
+    while(p!=NULL){
+        cout<<p->data<<endl;
+        p=p->ptr;//over here pts is acting as a link
+    }
 }
-
 int main()
 {
-    struct Node* head = NULL;
-    int n,x,y;
-    cout<<"How many numbers?"<<endl;
-    cin>>n;
-    for(int i=0;i<n;i++)
-    {
-        cout<<"Enter the number:"<<endl;;
-        cin>>x;
-        push(&head,x);
-    }
-    cout<<"Enter the element to be searched: "<<endl;
-    cin>>y;
-    search(head,y)?cout<<"yes":cout<<"No";
-    return 0;
+    insert(5);
+    insert(88);
+    insert(52);
+    insert(6);
+    insert(0);
+    cout<<"The Linked List is\n";
+    display();
+
 }
