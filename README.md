@@ -1,6 +1,11 @@
 <img src="https://i.ibb.co/rM3QW72/ishangoyal13-Hacktoberfest2021-Hacktoberfest-2021-contribution-repository-github-com.png" width="100%" >
 <h1 align="center"> 🎃 HacktoberFest-2021 🎃</h1>
 
+<h3 align="center">
+    <a href="https://hacktoberfest.digitalocean.com/">
+        Link To HacktoberFest 2021
+    </a>
+</h3>
 
 **Official Repository by for Hacktoberfest**
 
@@ -22,6 +27,15 @@ Hacktoberfest is open to everyone in our global community. Whether you’re a de
   🌟 Repeated codes will not be merged.  
   🌟 Kindly submit quality codes as "***The quality of pull requests is paramount; quantity comes second***". Example- DSA questions code etc.  
   🌟 You can also push any of your project in this repository. Make sure to open an issue first for that.
+***
+
+<h3 align="center">
+    <a href="https://discord.com/invite/hacktoberfest/">
+       Join Discord Conversation
+    </a>
+</h3>
+
+***
 ### Getting started with git 🚀
 [Git Tutorial](https://www.digitalocean.com/community/tutorials/how-to-contribute-to-open-source-getting-started-with-git)
 
