@@ -1,0 +1,54 @@
+<!DOCTYPE >
+<html>
+  <head>
+    <title>CSS3 Perspective Playground</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <h2>CSS3 Perspective Playground</h2>
+      <main>
+        <section class="settings">
+          <div class="settings-container">
+            <label>perspective: {{ perspective }}px;</label>
+            <input type="range" min="0" max="999" v-model="perspective" />
+
+            <label>rotateX: {{ rotateX }}deg; </label>
+            <input type="range" min="-180" max="180" v-model="rotateX" />
+
+            <label>rotateY: {{ rotateY }}deg; </label>
+            <input type="range" min="-180" max="180" v-model="rotateY" />
+
+            <label>rotateZ: {{ rotateZ }}deg; </label>
+            <input type="range" min="-180" max="180" v-model="rotateZ" />
+
+            <button type="button" @click.prevent="reset">Reset</button>
+            <button type="button" @click.prevent="copy">
+              Copy to clipboard
+            </button>
+          </div>
+        </section>
+        <section class="output">
+          <div class="box-container">
+            <div class="box" :style="box"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <css-doodle>
+      :doodle { @grid: 1x3 / 100vmax; position: absolute; top: 0; left: 0;
+      z-index: 0; } @size: 100% 150%; position: absolute; background: @m(100, (
+      linear-gradient(transparent, @p( #FFFDE1@repeat(2, @p([0-9a-f])),
+      #FB3569@repeat(2, @p([0-9a-f])) )) @r(0%, 100%) @r(0%, 100%) / @r(1px)
+      @r(23vmin) no-repeat )); will-change: transform; animation: f 50s linear
+      calc(-50s / @size() * @i()) infinite; @keyframes f { from { transform:
+      translateY(-100%) } to { transform: translateY(100%) } }
+    </css-doodle>
+
+    <script src="https://unpkg.com/css-doodle@0.6.1/css-doodle.min.js"></script>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
