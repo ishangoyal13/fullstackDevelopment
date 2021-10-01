@@ -11,8 +11,8 @@ __Get your free T-shirt with us 😉__
 # What is HacktoberFest?
 Hacktoberfest is open to everyone in our global community. Whether you’re a developer, student learning to code, event host, or company of any size, you can help drive growth of open source and make positive contributions to an ever-growing community. All backgrounds and skill levels are encouraged to complete the challenge.
 
-1. Hacktoberfest is a celebration open to everyone in our global community.
-2. Pull requests can be made in any GitHub-hosted repositories/projects.
+1. Hacktoberfest is a celebration to everyone in our global community.
+2. Pull requests can be made in any GitHub-hosted repositories and projects.
 3. You can sign up anytime between October 1 and October 31.
 
 # Rules 
