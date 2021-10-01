@@ -20,7 +20,7 @@ body {
 
 .btn:hover {
     background-color: #B4161B;
-    box-shadow: 5px 5px 7px black;
+    box-shadow: 5px 5px 7px darkblue;
     font-size: 35px;
     color: chartreuse;
 }
