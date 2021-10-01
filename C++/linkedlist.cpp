@@ -1,3 +1,4 @@
+
 #include <iostream>
 using namespace std;
 struct node{
@@ -28,5 +29,5 @@ int main()
     insert(0);
     cout<<"The Linked List is\n";
     display();
-    return 0;
+
 }

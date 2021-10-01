@@ -1,0 +1,77 @@
+*{
+  font-family: century gothic;
+  font-size: 15px
+  }
+  
+  QMainWindow{
+  background:url(img/background.png);
+  } 
+  
+  #label
+  {
+  font-size: 20px;
+  }
+  
+  #label_4
+  {
+  color: yellow
+  }
+  
+  QToolButton
+  {
+  background: transparent;
+  border-radius: 5px
+  }
+  
+  QPushButton
+  {
+  color: #333;
+  background: white;
+  border-radius: 5px
+  }
+  
+  QPushButton:hover
+  {
+  color: 333;
+  background: gray;
+  border-radius: 5px
+  }
+  
+  QFrame
+  {
+  background: black;                                 
+  border-radius: 5px
+  }
+  #frame
+  {
+  border: 1px solid white;
+  }
+  #frame_2
+  {
+  border: 1px solid white;
+  }
+  #frame_3
+  {
+  border: 1px solid white;
+  }
+  #frame_4
+  {
+  border: 1px solid white;
+  }
+  
+  
+  QLabel
+  {
+  background: transparent;
+  color: white;
+  }
+  
+  QRadioButton
+  {
+  color: white
+  }
+  
+  #label_23
+  {
+  font-size:9px;
+  }
