@@ -1,0 +1,69 @@
+body {
+  background-color: #845ec2;
+}
+
+.text_area {
+  position: absolute;
+
+  bottom: 400px;
+  left: 550px;
+  top: 100px;
+
+  padding-top: 50px;
+  padding-right: 100px;
+  padding-left: 120px;
+  padding-bottom: 50px;
+
+  background-color: rgb(41, 39, 39);
+  opacity: 1.5;
+  color: black;
+
+  border: 1px;
+  border-radius: 3%;
+}
+
+label {
+  color: white;
+  font-size: 23px;
+}
+
+select,
+option {
+  margin-top: 23px;
+  font-size: 16px;
+  margin-bottom: 23px;
+}
+
+.btn {
+  width: 35%;
+  height: 17%;
+}
+
+.btn:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+
+th,
+td {
+  position: relative;
+
+  border: 1px solid black;
+
+  bottom: 40px;
+  left: 550px;
+  top: 440px;
+}
+
+th,
+td {
+  padding: 6px;
+}
+
+h2 {
+  position: absolute;
+
+  bottom: 400px;
+  left: 680px;
+  top: 370px;
+}

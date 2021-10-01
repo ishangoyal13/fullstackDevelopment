@@ -1,0 +1,40 @@
+<Student>
+
+
+    <detail>
+        <id>1001</id>
+        <name>A</name>
+        <email>abc@gmail.com</email>
+        <phone>7777777777</phone>
+    </detail>
+
+    <detail>
+        <id>1002</id>
+        <name>B</name>
+        <email>xyz@gmail.com</email>
+        <phone>1111111111</phone>
+    </detail>
+
+    <detail>
+        <id>1004</id>
+        <name>C</name>
+        <email>qwe@gmail.com</email>
+        <phone>2222222222</phone>
+    </detail>
+
+    <detail>
+        <id>1005</id>
+        <name>D</name>
+        <email>ert@gmail.com</email>
+        <phone>3333333333</phone>
+    </detail>
+
+    <detail>
+        <id>1006</id>
+        <name>E</name>
+        <email>yut@gmail.com</email>
+        <phone>4444444444</phone>
+    </detail>
+
+
+</Student>

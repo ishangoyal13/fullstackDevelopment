@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student's ID</title>
+    <link rel="stylesheet" href="201952223_style.css">
+
+  </head>
+
+  <body>
+    
+    <div class="text_area">
+      <label>Choose a Student :</label></br>
+
+      <select name="student" id="student">
+        <option value="ID">---- Display All ----</option>
+        <option value="1001">1001</option>
+        <option value="1002">1002</option>
+        <option value="1004">1004</option>
+        <option value="1005">1005</option>
+        <option value="1006">1006</option>
+      </select>
+  
+    <input type="submit" value="Submit"  target="www.google.com" class="btn" style="float: right" onClick="loadXMLDoc()" />
+  </div>
+
+  <h2><u>Student's Detail</u></h2>
+
+  <table id="students"> 
+  <script>
+
+  function loadXMLDoc() 
+  {
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        myFunction(this);
+      }
+    };
+    xmlhttp.open("GET", "201952223_table.xml", true);
+    xmlhttp.send();
+  }
+
+
+  function myFunction(xml)
+   {
+    var i;
+    var xmlDoc = xml.responseXML;
+     var table="<tr><th>Student ID</th><th>Student Name</th><th>Email</th><th>Phone</th></tr>";
+
+    var x = xmlDoc.getElementsByTagName("detail");
+
+    var obtain = document.getElementById("student");
+    var selected = obtain.selectedIndex;
+    var check_ID=obtain.options[selected].text;
+
+    for (i = 0; i <x.length; i++)
+     {
+       var data_ID=x[i].getElementsByTagName("id")[0].childNodes[0].nodeValue;
+
+       if(check_ID==data_ID)
+       {
+
+      table += "<tr><td>" +
+      x[i].getElementsByTagName("id")[0].childNodes[0].nodeValue +
+      "</td><td>" +
+      x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
+      "</td><td>" +
+      x[i].getElementsByTagName("email")[0].childNodes[0].nodeValue +
+      "</td><td>" +
+      x[i].getElementsByTagName("phone")[0].childNodes[0].nodeValue +
+      "</td></tr>";
+
+       }
+
+       if(check_ID=="---- Display All ----")
+       {
+
+        table += "<tr><td>" +
+      x[i].getElementsByTagName("id")[0].childNodes[0].nodeValue +
+      "</td><td>" +
+      x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
+      "</td><td>" +
+      x[i].getElementsByTagName("email")[0].childNodes[0].nodeValue +
+      "</td><td>" +
+      x[i].getElementsByTagName("phone")[0].childNodes[0].nodeValue +
+      "</td></tr>"; 
+      
+       }
+
+    }
+    document.getElementById("students").innerHTML = table;
+  }
+
+
+  </script>
+</table>
+
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
