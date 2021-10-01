@@ -17,7 +17,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: version
+    id: codever
     attributes:
       label: Language
       description: Select the language you want to contribute to
