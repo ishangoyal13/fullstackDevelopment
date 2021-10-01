@@ -2,7 +2,7 @@
 <h1 align="center"> 🎃 HacktoberFest-2021 🎃</h1>
 
 
-**Official Repository by for Hacktoberfest**
+**{Official Repository by for Hacktoberfest}**
 
 __Get your free T-shirt with us 😉__
 
