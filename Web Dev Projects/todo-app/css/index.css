@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -21,28 +25,34 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 0 30px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#fc466b), to(#2947df));
-  background-image: linear-gradient(to right, #fc466b, #2947df);
   background-repeat: no-repeat;
   background-size: 100% 280px;
   background-position: top;
-  background-color: #181824;
-  font-family: "Nunito", sans-serif;
+  background: linear-gradient(-45deg, #FF8008, #FFC837, #1D976C, #93F9B9);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .main-content {
   width: 100%;
   max-width: 500px;
   color: #fff;
+  animation: fade 1s ease-in;
 }
 
 .title {
   margin: 50px 0;
   width: 100%;
-  font-size: 50px;
+  font-size: 6rem;
   font-weight: 700;
   letter-spacing: 10px;
   color: #fff;
+  align-items: center;
+  text-align: center;
+  opacity: 0;
+  animation: in 3s ease-out forwards;
+  animation-delay: 1s;
 }
 
 .input-box {
@@ -62,6 +72,7 @@ body {
   color: #fff;
   border: none;
   outline: none;
+  font-size: 1.5rem;
 }
 
 .input-button {
@@ -71,6 +82,11 @@ body {
   font-size: 20px;
   border: none;
   outline: none;
+}
+.input-button:hover{
+  background-color: #25273c;
+  color: white;
+  transition: 0.3s;
 }
 
 .todos-container {
@@ -148,4 +164,39 @@ body {
   outline: none;
   color: #fff;
   cursor: pointer;
+}
+
+/* animations */
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+@keyframes in{
+  0%{
+    letter-spacing: -17px;
+    opacity: 0;
+  }
+  30%{
+    letter-spacing: 4px;
+    opacity: 1;
+  }
+  100%{
+    letter-spacing: 4px;
+    opacity: 1;
+  }
+}
+@keyframes fade{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
