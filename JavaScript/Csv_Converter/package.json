@@ -9,6 +9,6 @@
   },
   "dependencies": {
     "ejs": "^3.1.6",
-    "html-pdf": "^2.2.0"
+    "html-pdf": "^3.0.1"
   }
 }
