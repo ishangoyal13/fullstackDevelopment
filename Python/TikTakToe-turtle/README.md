@@ -1,6 +1,9 @@
-## TIK TAK TOE :sparkles:
+## TIK TAK TOE :sparkles:  
 
-**TIK TAK TOE** Game using Turtle library.
+**TIK TAK TOE** Game using Turtle library. 
+---
+
+<img src="https://github.com/j0fiN/Hacktoberfest2021/blob/main/Python/TikTakToe-turtle/img.png" width="533" height="400" />
 
 ### INSTRUCTIONS
 
