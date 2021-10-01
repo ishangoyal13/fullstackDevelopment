@@ -18,7 +18,7 @@ def init_score(rows, cols):
 
     return Score
 
-def heuristics(node, end):
+def heuristics(node, end): # Euclidean Distance
     return math.sqrt((node[0] - end[0])**2 + (node[1] - end[1])**2)
 
 def get_lowest_f(Set, fScore):
@@ -54,29 +54,28 @@ def get_neighbours(node, m, n):
     return neighbours
 
 def A_star(grid, start, end, m, n):
-    if grid[end[0]][end[1]] == -1 or grid[start[0]][start[1]] == -1:
+    if grid[end[0]][end[1]] == -1 or grid[start[0]][start[1]] == -1: # If end itself is a wall
         return -1
 
-    openSet = [start]
-    cameFrom = {}
+    openSet = [start] # initialise openSet with a list with start node in it
+    cameFrom = {} # cameFrom is a map that keeps track of parent node of each vertex while computing the route
     gScore = init_score(m, n)
-    gScore[start] = 0
+    gScore[start] = 0 # set gScore of start node to 0
     fScore = init_score(m, n)
-    fScore[start] = heuristics(start, end)
+    fScore[start] = heuristics(start, end) # set fScore of start node to the estimated(heuristic) value
     reached = False
 
     while len(openSet) > 0:
-        current = get_lowest_f(openSet, fScore)
-        if current == end:
+        current = get_lowest_f(openSet, fScore) # select the node which is in openSet and has least fScore
+        if current == end: # if the selected node is the destination terminate iteration
             reached = True
             break
 
-        # reconstruct_path(cameFrom, current)
         openSet.remove(current)
-        for neighbour in get_neighbours(current, m, n):
+        for neighbour in get_neighbours(current, m, n): # for every neighbour of selected node, calculate tentative gScore
             tempG = gScore[current] + 1 # gScore of current + distance of neighbour from current
-            if grid[neighbour[0]][neighbour[1]] != -1 and tempG < gScore[neighbour]:
-                cameFrom[neighbour] = current
+            if grid[neighbour[0]][neighbour[1]] != -1 and tempG < gScore[neighbour]: # if the tentative gScore is lower than alloted gScore, update the gScore map
+                cameFrom[neighbour] = current # update cameFrom to current 
                 gScore[neighbour] = tempG
                 fScore[neighbour] = gScore[neighbour] + heuristics(neighbour, end)
 
