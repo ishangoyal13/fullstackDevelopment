@@ -1,5 +1,5 @@
 #include <iostream>
-#include "hashmap.h"
+#include "hashmapClass.h"
 #include <string>
 using namespace std;
 
