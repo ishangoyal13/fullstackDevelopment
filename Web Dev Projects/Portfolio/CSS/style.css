@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.parallax-header{
+    /* background: #000; */
+     background: url("/assets/bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-content{
+    padding: 100px 0 150px 0;
+}
+.content .right{
+    align-items: center;
+    height: 500px;
+    width:  450px; 
+    padding: 70px;
+    padding: 0px;
+    margin-top: 100px;
+    margin-left: 0px;
+}
+
+.content{
+    margin-top: 1000px;
+    box-shadow: 50px 10px 50px 10px rgba(0,0,0,0);
+    background-color: #fff;
+}
+
+.content .left{
+    padding-top: 20px;
+}
+
+.content p{
+    margin-left: 10px;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+.navbar{
+    background: fixed;
+}
+
+.container__progress {
+    align-items: left;
+    display: flex;
+    justify-content: center;
+    background-color: #357edd;
+    color: #fff;
+    border-radius: 9999px;   
+}
+
+.home .container-lg .design{
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+.home .container-lg{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.home .container-lg .fw-bold{
+    font-family: 'STIX Two Math', serif;
+}
+.navbar .container-fluid .nav-link{
+    font-family: 'Uchen', serif;
+}
+
+.hy .MySkills{
+    font-family: 'Uchen', serif;
+}
+
+ .testimonials .container-sm-6 .row .col-lg-8 .section-tit h2{
+    font-family: 'Uchen', serif;
+}
+
+.contact h2{
+    font-family: 'Uchen', serif;
+} 
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+  }
+
+  div.transbox h1{
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Yatra One', cursive;
+  }
+  div.transbox pre{
+    font-family: 'Yatra One', cursive;
+  }
+  .testimonials .container-sm-6 .row .col-lg-8 .section-tit h2{
+    font-family: 'Uchen', serif;
+  }
+  
+ 
+ .fixed-img-bg {
+    width: 100%;
+    height: 60vh;
+    background:
+    url("/assets/bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .banner-text {
+    background-color: rgba(19, 39, 66, 0.6);
+    color: var(--color5);
+    font-weight: 700;
+    border: 3px solid #f1f1f1;
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    width: 80%;
+    /* padding: 2rem; */
+    text-align: center;
+  }
+  
+  .banner-text h1 {
+    font-size: 3rem;
+    padding: 1rem 0;
+  }
+
+  .hyi{
+      backface-visibility: visible;
+}
+.home{
+    background-color: #ff7f5034;
+}
+.contact{
+    background-color: #ff7f5034;
+}
+/* .testimonials{ */
+    /* background-color:blue; */
+/* } */
+.header{
+    height: 100vh !important;
+    background: url("../assets/bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header1{
+    height: 100vh !important;
+    /* background-color: #0080807c; */
+}
+.container{
+    color: #008080;
+    /* padding-top: 10vh; */
+    font-family: 'Montserrat', sans-serif;
+
+}
+.top{
+    padding-top: 10vh;
+}
+.newbie{
+    margin-top: 25vh;
+    padding-bottom: 10vh;
+    font-family: 'STIX Two Math', serif;
+}
+.newbie1{
+    margin-top: 3vh;
+}
+.home .container .row{
+    font-family: 'Open Sans', sans-serif;
+}
