@@ -1,0 +1,8 @@
+﻿  Source.cpp
+D:\University\Semester 6\AI\Astar\Astar\Source.cpp(10,1): warning C4005: 'INFINITY': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h(88): message : see previous definition of 'INFINITY'
+D:\University\Semester 6\AI\Astar\Astar\Source.cpp(255,21): warning C4129: 'E': unrecognized character escape sequence
+D:\University\Semester 6\AI\Astar\Astar\Source.cpp(232,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\University\Semester 6\AI\Astar\Astar\Source.cpp(232,56): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\University\Semester 6\AI\Astar\Astar\Source.cpp(243,76): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Astar.vcxproj -> D:\University\Semester 6\AI\Astar\Debug\Astar.exe
