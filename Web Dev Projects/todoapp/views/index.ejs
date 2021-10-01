@@ -1,0 +1,44 @@
+<html>
+<head>
+<title> ToDo App </title>
+<link rel="icon" href="https://cdn0.iconfinder.com/data/icons/simpline-mix/64/simpline_39-512.png"
+        sizes="16x16">
+<link type="text/css" rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+
+<h1>ToDo List</h1>
+<div class="datetime">
+<b>Date</b>:<%= Fdate %><br>
+</div>
+<br>
+<div class="container">
+<form action ="/addtask" method="POST">
+<input type="text" name="newtask" placeholder="add new task">
+<button > +  Add Task </button>
+<h2> ToDo Task </h2>
+<hr class="h">
+</form>
+<form  method="POST">
+<% for( var i = 0; i < task.length; i++){ %>
+<li><input formaction="/removetask" type="checkbox" name="check" id="xd" value="<%= task[i] %>" /><label  for="xd" class="stikethrough"> <%= task[i] %></label> </li>
+<% } %>
+<button formaction="/removetask"  id="top"> Remove </button>
+
+
+
+ 
+<h2> Completed task </h2>
+<% for(var i = 0; i < complete.length; i++){ %>
+<li><input type="checkbox" checked><%= complete[i] %> </li>
+<% } %>
+</div><br>
+<div class="cnt">
+    <button formaction="/clear" type="submit" id="top" class="top"> Clear </button>
+    </div>
+</form>
+
+
+</body>
+</html>
