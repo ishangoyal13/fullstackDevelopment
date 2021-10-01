@@ -1,5 +1,4 @@
 import requests
-import json
 import sys
 
 def get_stats(country):
@@ -24,6 +23,7 @@ def get_stats(country):
 
     print(f'\n\nCountry: {country}\nCountry Code: {country_code}')
     print(f'City: {city}\nCity code: {city_code}')
+    print(f'Province: {province}')
     print(f'Longitude: {lon}\nLatitude: {lat}')
     print(f'Confirmed cases: {confirmed}\nDeaths: {deaths}')
     print(f'Recovered: {recovered}\nActive: {active}\nDate: {date}')

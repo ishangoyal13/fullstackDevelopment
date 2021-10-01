@@ -1,0 +1,84 @@
+name: New Issue
+description: Description
+title: "[Create New Issue]: "
+labels: ["Hacktoberfest21"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to make an issue!
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Enter a brief description
+      placeholder: Please include a summary. Please also include relevant motivation and context. 
+      value: "Description"
+    validations:
+      required: true
+  - type: dropdown
+    id: codever
+    attributes:
+      label: Language
+      description: Select the language you want to contribute to
+      options:
+        - C#
+        - C++
+        - Python
+        - Java
+        - JavaScript
+        - Others
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Domain
+      description: Select domain of Contribution
+      options:
+        - Introduction
+        - Mathematics
+        - Bit Magic
+        - Recursion
+        - Arrays
+        - Searching 
+        - Sorting
+        - Matrix
+        - Hashing
+        - String
+        - Linked List
+        - Stacks
+        - Queue
+        - Deque
+        - Tree
+        - Binary Search Tree
+        - Heap
+        - Graph
+        - Greedy
+        - Backtracking
+        - Dynamic Programming
+        - Trie
+        - Segment Tree
+        - Disjoint Set
+        - Web Dev Projects
+        - Others
+        - Multiple Domains
+    validations:
+      required: true
+  - type: dropdown
+    id: contribtype
+    attributes:
+      label: Type of Contribution
+      multiple: true
+      options:
+        - Documentation
+        - Code
+        - Project
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct]()
+      options:
+        - label: I follow Contributing Guidelines & Code of conduct.
+          required: true
