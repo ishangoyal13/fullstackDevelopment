@@ -1,0 +1,41 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+void NSR(int arr[],int size){
+    vector<int> ans;
+    stack<int> s;
+    for(int i=size-1;i>=0;i--){
+        if(s.empty()){
+            ans.push_back(-1);
+        }
+        else if(s.top()<arr[i]){
+            ans.push_back(s.top());
+        }
+        else{
+            while(!s.empty() && s.top()>=arr[i]){
+                s.pop();
+            }
+            if(s.empty()){
+                ans.push_back(-1);
+            }
+            else{
+                ans.push_back(s.top());
+            }
+        }
+        s.push(arr[i]);
+    }
+    reverse(ans.begin(),ans.end());
+    for(auto i:ans){
+        cout<<i<<" ";
+    }cout<<"\n";
+}
+
+int main(){
+    
+    int arr[]={1,5,10,3,2,4,8,7,6,9};
+    int n=sizeof(arr)/sizeof(arr[1]);
+    NSR(arr,n);
+    
+    return 0;
+}
