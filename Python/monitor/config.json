@@ -1,0 +1,56 @@
+{
+    "monitorApps": {
+        "Work": [
+            "Code.exe",
+            "pycharm64.exe",
+            "bash.exe",
+            "vim.exe",
+            "nvim.exe",
+            "msedge.exe",
+            "chrome.exe",
+            "Pro.exe",
+            "Photoshop.exe",
+            "Spotify.exe"
+        ],
+        "Fun": ["VALORANT.exe"]
+    },
+    "appNames": {
+        "Code.exe": "VS Code",
+        "pycharm64.exe": "PyCharm",
+        "bash.exe": "Bash",
+        "vim.exe": "Vim",
+        "nvim.exe": "NeoVim",
+        "msedge.exe": "MS Edge",
+        "chrome.exe": "Chrome",
+        "Pro.exe": "Premier Pro",
+        "Photoshop.exe": "Photoshop",
+        "VALORANT.exe": "VALORANT",
+        "Spotify.exe": "Spotify"
+    },
+    "appColors": {
+        "VS Code": "#4ED479",
+        "Bash": "#FF8080",
+        "Vim": "#C0C0C0",
+        "NeoVim": "#66B459",
+        "MS Edge": "#23ABF2",
+        "Chrome": "#B18F27",
+        "Premier Pro": "#B656CE",
+        "Photoshop": "#007498",
+        "VALORANT": "#FD4553",
+        "Spotify": "#138A3D"
+    },
+    "appIcons": {
+        "VS Code": "https://img.icons8.com/color/96/000000/visual-studio-code-2019.png",
+        "Bash": "https://img.icons8.com/color/96/000000/console.png",
+        "Vim": "https://symbols.getvecta.com/stencil_100/36_vim-icon.10adf6f02d.png",
+        "NeoVim": "https://symbols.getvecta.com/stencil_89/33_neovim-icon.fe408f504a.png",
+        "MS Edge": "https://img.icons8.com/fluent/96/000000/ms-edge-new.png",
+        "Chrome": "https://img.icons8.com/fluent/96/000000/chrome.png",
+        "Premier Pro": "https://img.icons8.com/color/96/000000/adobe-premiere-pro.png",
+        "Photoshop": "https://img.icons8.com/fluent/96/000000/adobe-photoshop.png",
+        "VALORANT": "https://img.icons8.com/color/96/000000/valorant.png",
+        "Spotify": "https://img.icons8.com/fluent/96/000000/spotify.png"
+    },
+    "refreshTime": 10,
+    "uploadPerEpoch": 15
+}
