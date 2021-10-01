@@ -1,0 +1,45 @@
+body{
+    background-color: powderblue;
+}
+h2{
+    color: blue;text-align: center;
+}
+h1{
+    color: green;
+}
+.mydiv{
+    margin-top: 10%;
+    margin-left: 30%;
+    align-items: center;
+    justify-content: center;
+    padding:15px;
+    border-radius: 5px;
+    background-color: rgb(146, 173, 24);
+    box-shadow: 0 0 10px;
+    width: 400px;
+    height: 125px;
+}
+.icon{
+    background-color: burlywood;
+    margin-left: 40%;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    border-radius: 10px;
+}
+#myVdiv{
+    margin-top: 10%;
+    margin-left: 30%;
+    align-items: center;
+    justify-content: center;
+    padding:15px;
+    border-radius: 5px;
+    background-color: rgb(24, 93, 173);
+    box-shadow: 0 0 10px;
+    
+    width: 400px;
+    height: auto;
+}
+button{
+    border-radius: 5px;
+}
