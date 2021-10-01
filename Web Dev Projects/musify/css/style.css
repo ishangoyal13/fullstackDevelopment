@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    background: linear-gradient(120deg, #130f40,#4834d4,#8344ad);
+    height: 100vh;
+}
+
+.img{
+    max-width: 90%;
+}
+
+.player{
+    background: black;
+    width: 450px;
+    height: 730px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: red;
+    border-radius: 5px;
+    box-shadow: 1px 1px 30px #111, -1px -1px 30px #111;
+    overflow: hidden;
+
+}
+
+.container {
+    width: 100%;
+     max-width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+
+  .icons a {
+    color: #ff012f;
+    font-size: 1.2em;
+    transition: all 0.3s;
+  }
+
+  .icons a:hover {
+    color: #fff;
+  }
+
+  .img {
+    box-shadow: 8px 14px 20px 4px rgba(245,0,0,0.91);
+    -webkit-box-shadow: 8px 14px 20px 4px rgba(245,0,0,0.91);
+    -moz-box-shadow: 8px 14px 20px 4px rgba(245,0,0,0.91);
+    width: 100%;
+    border-radius: 15%;
+    margin: 30px auto;
+    transition: all 0.3s;
+  }
+
+
+  .img img {
+    width: 100%;
+    height: 40%;
+    padding-right: 00px;
+    cursor: pointer;
+  }
+
+  .img:hover {
+    box-shadow: 1px 1px 25px #ff012f, -1px -1px 25px #ff012f;
+    transform: scale(1.03);
+  }
+
+  .title {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .title h1 {
+    font-size: 2em;
+    margin: 0 0 10px 0;
+  }
+
+  .title p {
+    color: #fff;
+    font-size: 1.1em;
+  }
+
+  .time {
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  .seek {
+    width: 100%;
+    height: 5px;
+    background: #ff012f;
+    border-radius: 50px;
+  }
+
+  .seek .fill {
+    width: 0;
+    height: 5px;
+    background: #fff;
+    border-radius: 50px;
+  }
+
+  .audio-btns {
+    background: #ff012f;
+    margin: 40px auto;
+    height: 350px;
+    width: 100%;
+    border-radius: 48%;
+    text-align: center;
+  }
+
+  .audio-btns a:hover {
+    color: #aaa;
+  }
+
+  .play-btns {
+    padding: 45px 0 30px 0;
+  }
+
+  .play-btns a {
+    color: #fff;
+    margin: 0 30px;
+    font-size: 1.5em;
+    transition: all 0.5;
+  }
+
+  .play-btns .play-pause {
+    background: #ff0634;
+    padding: 30px 30px 30px 33px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 50px #111;
+  }
+
+  .repeat-btns {
+  margin: 30px 0;
+}
+
+.repeat-btns a {
+  color: #fff;
+  margin: 0 40px;
+  font-size: 1.3em;
+}
+
+.repeat-btns button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #ff012f;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1px 1px 25px #111;
+  transition: all 0.3s;
+}
+
+.repeat-btns button:hover {
+  background: #ff0634;
+  color: #fff;
+}
