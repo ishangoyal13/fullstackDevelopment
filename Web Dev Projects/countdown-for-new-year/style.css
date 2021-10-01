@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,300&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://www.meme-arsenal.com/memes/78fc1876f061162dde23d4f34c8376a8.jpg);
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-size: cover;
+    background-position:center center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: -20rem;
+}
+
+.countdown-container{
+    display: flex;
+}
+
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin:0 2rem;
+}
+
+.countdown-element{
+    text-align: center;
+}
+
+.countdown-element span{
+    font-size: 1.5rem;
+}
+
