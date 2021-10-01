@@ -2,6 +2,8 @@
 <p align="center">
 <img src ="https://i.giphy.com/media/XZUTH3GBcS6wUDG1qf/giphy.webp"  width="100px"/>
 </p>
+•	From <i>[Hacktobarfesr2021/Python/LUDO game]</i> Run <b>"Ludo-game.py"</b>
+
 •	Unless you get a '6' when rolling the dice, your planes can't take off.<br>
 •	Press the ROLL button to roll the dice.<br>
 •	If it is a 6, then you can take another turn. So press ROLL again.<br>
