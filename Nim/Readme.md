@@ -10,7 +10,7 @@
 >
 > Get your free T-shirt with us :)
 
-# Nim Folder
+# [Nim](https://nim-lang.org/) Folder
 
 This folder is organized to include solution to problems in [Index.md](Index.md). Pick a problem, name your solution file with as the problem-id and after solving add link to the Index file. Before staging/committing remove binaries generated at compile time. You can add your problems questions too, just follow the pattern.
 
