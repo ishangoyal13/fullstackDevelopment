@@ -1,0 +1,116 @@
+//Initial Template for C
+#include<stdio.h>
+#include<stdlib.h>
+
+struct Node
+{
+    int data;
+    struct Node *next;
+    
+}*start;
+
+void insert();
+
+
+ // } Driver Code Ends
+//User function Template for C
+
+//Function to find the data of nth node from the end of a linked list.
+int getNthFromLast(struct Node *head, int n)
+{    
+//int count=0;
+   
+//     if(head!=NULL){
+//         while(head->next!=NULL){
+//             count=count+1;
+//             head=head->next;
+            
+//         }
+//     }
+//     if(count<n){
+//         return -1;
+//     }
+//     int sub=count-n;
+//     struct Node* temp=head;
+//     for(int i=1;i<sub+1;i++){
+//         temp=temp->next;
+//     }
+//     return temp->data;
+     int len = 0, i;
+    struct Node* temp = head;
+ 
+    // count the number of nodes in Linked List
+    while (temp != NULL) {
+        temp = temp->next;
+        len++;
+    }
+ 
+    // check if value of n is not
+    // more than length of the linked list
+    if (len < n)
+        return -1;
+ 
+    temp = head;
+ 
+    // get the (len-n+1)th node from the beginning
+    for (i = 1; i < len - n + 1; i++){
+        temp = temp->next;
+    }
+ 
+    return temp->data;
+ 
+  
+}
+
+// { Driver Code Starts.
+
+
+
+int main()
+{
+    int t;
+    scanf("%d",&t);
+    while(t--)
+    {
+      start=NULL;
+      int n,k;
+      scanf("%d",&n);
+      scanf("%d",&k);
+      insert(n);
+      int res = getNthFromLast(start,k);
+      printf("%d\n",res);
+    }
+    return 0;
+
+}
+
+
+ void insert(int n)
+ {   int value,i;
+     struct Node *temp;
+     for(i=0;i<n;i++)
+     {
+         scanf("%d",&value);
+         if(i==0)
+         {
+              start=(struct Node *) malloc( sizeof(struct Node) );
+              start->data=value;
+              start->next=NULL;
+              temp=start;
+              continue;
+         }
+         else
+         {
+             temp->next= (struct Node *) malloc( sizeof(struct Node) );
+             temp=temp->next;
+             temp->data=value;
+             temp->next=NULL;
+         }
+     }
+ }
+ 
+
+
+
+
+  // } Driver Code Ends
