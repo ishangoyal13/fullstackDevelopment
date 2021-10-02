@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Submissions</title>
+        <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <form action="/show">
+        <label for="fname">Enrollment Number</label>
+        <input type="text" name="Enrollment" placeholder="Enter Your enrollment no" id="fname">
+       
+        <input type="submit" value="Search" >
+    </form>
+     <a href="/"><input type="submit" value="Go Back" ></a>
+     {{#each list}}
+    <h2>{{this.firstName}} Submitted Assignment Link is: </h2><h3>{{this.file}}</h3>
+     {{/each}}
+
+</body>
+</html>
