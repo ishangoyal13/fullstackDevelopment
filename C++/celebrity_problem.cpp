@@ -1,3 +1,5 @@
+//Q URL: https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1
+
 #include<bits/stdc++.h>
 using namespace std;
 
