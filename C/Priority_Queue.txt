@@ -1,0 +1,93 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define max 10
+int front=0;
+int rear=-1;
+int q[max],item;
+
+void enqueue()
+{
+    int a;
+    if(rear==max-1)
+    {
+
+        printf("Overflow");
+    }
+    else
+    {
+        printf("Enter data: ");
+        scanf("%d",&a);
+        check(a);
+        rear++;
+    }
+}
+
+check(int a)
+{
+    int i,j;
+    for(i=front;i<=rear;i++)
+    {
+        if(a<q[i])
+        {
+            for(j=rear+1;j>i;j--)
+            {
+                q[j]=q[j-1];
+            }
+            q[i]=a;
+            return;
+        }
+    }
+    q[i]=a;
+}
+
+int delete()
+{
+    int itemdeleted;
+    if(rear==-1 || front>rear)
+    {
+        printf("Underflow");
+    }
+    else
+    {
+        itemdeleted=q[front++];
+        return itemdeleted;
+    }
+}
+
+void display()
+{
+    if(rear==-1 || front>rear)
+    {
+        printf("Underflow");
+    }
+    else
+    {
+        for(int i=front;i<=rear;i++)
+        {
+
+            printf("%d",q[i]);
+        }
+    }
+}
+
+int main()
+{
+    int itemdeleted,ch;
+    while(1)
+    {
+        printf("1.Insert\n2.Delete\n3.Display\n4.Exit\n");
+        scanf("%d",&ch);
+        switch(ch)
+        {
+            case 1:enqueue();
+            break;
+            case 2:itemdeleted=delete();
+                    printf("The deleted item is %d",itemdeleted);
+            break;
+            case 3:display();
+            break;
+            case 4:exit(0);
+            break;
+        }
+    }
+}

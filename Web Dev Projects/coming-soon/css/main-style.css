@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.hero-img {
+  background: -webkit-gradient(linear, left top, right top, to(rgba(27, 27, 27, 0.932))), url("/assets/comingsoon-bg.jpg") no-repeat;
+  background: linear-gradient(to right, rgba(27, 27, 27, 0.932) 100%), url("/assets/comingsoon-bg.jpg") no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+h2 {
+  color: #00e7c1;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 720px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+}
+
+.des {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.4rem;
+}
+
+@media screen and (max-width: 720px) {
+  .des {
+    font-size: 0.5rem;
+  }
+}
+
+.sub-section-one {
+  background: url("/assets/comingsoon-bg.jpg") no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.sub-section-one .content {
+  background-color: rgba(255, 255, 255, 0.226);
+  margin-top: 8rem;
+  border-radius: 10px;
+}
+
+.sub-section-one .content h3 {
+  font-family: 'Poppins';
+  padding: 1rem;
+  color: #0099ff;
+}
+
+#countdown {
+  text-align: center;
+}
+
+#countdown ul {
+  list-style: none;
+  margin-top: 12.5rem;
+  margin-bottom: 2rem;
+  padding-left: 0 !important;
+}
+
+@media screen and (max-width: 480px) {
+  #countdown ul {
+    margin-top: 6.25rem;
+    margin-bottom: 2rem;
+  }
+}
+
+#countdown ul li {
+  border-radius: 20px;
+  margin-right: 1rem;
+  text-align: center;
+  border: 1px solid aqua;
+  display: inline-block;
+  font-size: 2rem;
+  padding: 1em;
+  text-transform: uppercase;
+  color: #8cf502;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+@media screen and (max-width: 720px) {
+  #countdown ul li {
+    margin: 0.5rem;
+  }
+}
+
+#countdown ul span {
+  display: block;
+  font-size: 0.8rem;
+  color: whitesmoke;
+}
+/*# sourceMappingURL=main-style.css.map */
