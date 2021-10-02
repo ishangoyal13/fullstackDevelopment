@@ -21,13 +21,7 @@ There are no prerequisites; all you need is a basic understanding of Python and 
 - Clone this Repository
 
 ```
-git clone https://github.com/gaurtvin/python-projects.git
-```
-
-- Go to the Project directory
-
-```
-cd python-projects
+git clone https://github.com/ishangoyal13/fullstackDevelopment.git
 ```
 
 - Go to the projects folder
@@ -50,11 +44,11 @@ python main.py
 
 # Sample use of the code
 
-![alt text](https://github.com/gaurtvin/python-projects/blob/master/projects/Password-Validator/screenshot_1.png)
+![alt text](https://github.com/Mannuel25/fullstackDevelopment/blob/main/Python/Password%20Validator/screenshot_1.png)
 
-![alt text](https://github.com/gaurtvin/python-projects/blob/master/projects/Password-Validator/screenshot_2.png)
+![alt text](https://github.com/Mannuel25/fullstackDevelopment/blob/main/Python/Password%20Validator/screenshot_2.png)
 
-![alt text](https://github.com/gaurtvin/python-projects/blob/master/projects/Password-Validator/screenshot_3.png)
+![alt text](https://github.com/Mannuel25/fullstackDevelopment/blob/main/Python/Password%20Validator/screenshot_3.png)
 
 # Author's name
 
