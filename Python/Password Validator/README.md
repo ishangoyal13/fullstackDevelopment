@@ -33,7 +33,7 @@ cd projects
 - Go to the Password Validator folder
 
 ```
-cd Password-Validator
+cd Password Validator
 ```
 
 - Run the following command
