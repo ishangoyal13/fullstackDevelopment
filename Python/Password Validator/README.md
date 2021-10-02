@@ -30,7 +30,7 @@ git clone https://github.com/ishangoyal13/fullstackDevelopment.git
 cd projects
 ```
 
-- Go to the Password-Validator folder
+- Go to the Password Validator folder
 
 ```
 cd Password-Validator
