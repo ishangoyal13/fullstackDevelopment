@@ -1,0 +1,35 @@
+<div class="keys">
+ 
+<div data-key="83" class="kode">
+    <h2>A</h2>
+    <span class="sound">Sound A</span>
+</div>
+<div data-key="66" class="kode">
+    <h2>B</h2>
+    <span class="sound">Sound B</span>
+</div>
+
+<audio data-key="65" src="sounds/hihat.wav"></audio>
+<audio data-key="83" src="sounds/clap.wav"></audio>
+
+</div>
+
+<script>
+
+    function playsound(e){
+        const suara = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+        const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
+        if(!suara) return;
+
+
+        suara.currentTime = 0;
+        suara.play();
+    
+    }
+    
+    
+    const keys = Array.from(document.querySelectorAll('.kode'));
+    window.addEventListener('keydown', playsound);
+    
+    
+    </script>
