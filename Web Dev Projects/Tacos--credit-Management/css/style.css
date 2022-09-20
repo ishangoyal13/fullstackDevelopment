@@ -1,0 +1,253 @@
+*{
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    margin: 0;
+	background-color: yellow;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.myButton1:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+.myButton1:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton {
+    box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 110px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    /*  font-weight: bold;*/
+    cursor: pointer;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+    cursor: pointer;
+}
+
+/*
+.content {
+    width: 40%;
+    color: yellow;
+}
+*/
+table {
+/*  border-collapse: collapse;*/
+/*  width: 100%;*/
+    /*display: inline-block;*/
+}
+
+th{
+    /*color: #bfc83e;*/   /* better */
+    color: #E4F1F6;
+    text-align: left;
+    padding: 8px;
+    background-color: #034F85;
+}
+
+
+td {
+  text-align: left;
+  padding: 8px;
+  background-color: #1A3E4C;
+  color: white;
+}
+
+/*---------- radio button  ---*/
+
+/* Customize the label (the container) */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: left;
+}
+
+label.container {
+    text-align: center;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+tr{
+  color: black;
+}
+
+p{
+  font-size: 15px;
+}
+
+/*#completeBody{
+    color: red;
+}
+*/
+#send{
+  /*display: none;*/
+}
+
+
+
+#instructions_heading{
+  font-size: 40px;
+  text-align: center;
+  font-family: sans-serif;
+
+  display:block;
+  margin: auto;
+  /*padding: 5px;*/
+  /* width: 40%; */
+}
+
+#instructions{
+/*text-align: left;*/
+
+  /*width: 40;*/
+  display:block;
+  margin: auto;
+  font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+h3, h4{
+  font-family: sans-serif;
+
+}
+
+/*#display_other_persons_id{
+    display:block;
+  margin: auto;
+  font-weight: bold;
+    font-family: sans-serif;
+}
+*/

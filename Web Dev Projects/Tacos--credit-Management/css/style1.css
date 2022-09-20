@@ -1,0 +1,439 @@
+
+
+body
+	{
+		background: #101010;
+    color: #808080;
+		font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+	}
+
+@media (min-width: 768px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 900px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+.mt20 {
+	margin-top: 20px;
+}
+
+.mt30 {
+	margin-top: 30px;
+}
+
+/* heading section */
+h1,h2,h3,h4 {
+  color: #fff;
+  font-weight: bold;
+}
+
+h1,h2 {
+  font-size: 30px;
+}
+
+/* images retina */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* button section */
+.btn {
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 0px;
+  box-shadow: none;
+  color: #fff;
+  padding: 12px 18px;
+  font-size: 13px;
+  font-weight: bold;
+  transition: all 0.4s ease-in;
+}
+.btn:hover {
+  background: #009988;
+  border-color: transparent;
+}
+
+.email {
+	margin-top: 10px;
+	padding: 8px 12px;
+}
+
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* navigation */
+
+.navbar-default {
+    background: #202020;
+    border: none;
+    border-left: 6px solid #d54ab6;
+    padding-right: 40px;
+    margin: 0 !important;
+    position: relative;
+    top: 20px;
+  }
+.navbar-default .navbar-brand {
+    font-size: 40px;
+    line-height: 40px;
+    padding-top: 4px;
+   }
+.navbar-default .navbar-nav li a {
+  color: #f2f2f2;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 40px;
+  transition: all 0.4s ease-in;
+ }
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffa500;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  	color: #ffa500;
+  	background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+  	background: #d54ab6;
+  	border-radius: 0px;
+   	border: none;
+   	margin-top: 20px;
+   	margin-bottom: 30px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background: #fff;
+    border-color: transparent;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus { 
+  background-color: transparent 
+}
+
+.active {
+	background: #333;
+}
+
+/* home section */
+#home {
+  background: url('../images/home-bg.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border: 8px dotted red;
+  min-height: 600px;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+#home h1,
+#home h3 {
+  line-height: 30px;
+  font-size: 40px;
+}
+
+/* divider section */
+.divider {
+  color: #fff;
+  text-align: center;
+}
+.divider .fa {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  font-size: 32px;
+  width: 80px;
+  height: 80px;
+  line-height: 76px;
+  text-transform: capitalize;
+}
+.divider h2 {
+  padding-bottom: 4px;
+}
+.divider .divider-wrapper {
+  padding: 40px 20px 40px 20px;
+  position: relative;
+  bottom: 40px;
+  transition: all 0.4s ease-in;
+}
+.divider .divider-wrapper:hover {
+  bottom: 60px;
+  cursor: pointer;
+}
+.divider .divider-one {
+  background: #c14000;
+}
+.divider .divider-two {
+  background: #009988;
+}
+.divider .divider-three {
+  background: #ffa500;
+}
+
+/* about section */
+#about-header {
+  background: url('../images/eiffel.jpg');
+  background-repeat
+
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  border: 8px dotted blue;
+  padding-top: 160px;
+}
+#about {
+  padding-top: 60px;
+}
+#about .container {
+  background: #191919;
+}
+#about .col-md-6 {
+  padding: 0;
+  margin: 0;
+}
+#about .about-des {
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+#about .btn {
+  margin-top: 30px;
+}
+
+/* team section */
+#team {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+#team h2 {
+  padding-bottom: 30px;
+  text-align: center;
+}
+#team h3 {
+  padding-bottom: 10px;
+}
+#team .team-wrapper {
+  border: 2px solid #303030;
+  padding: 20px;
+}
+#team h4 {
+  color: #d54ab6;
+}
+#team img {
+  opacity: 0.8;
+}
+#team hr {
+  border-color: #303030;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+#team strong {
+  display: inline-block;
+  padding-top: 12px;
+  padding-bottom: 10px;
+}
+#team .progress {
+  border-radius: 0px;
+  height: 4px;
+}
+
+
+/* contact section */
+#contact-header {
+  background: url('../images/mahal.jpg');
+  background-repeat
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 500px;
+  padding-top: 160px;
+  border: 8px dotted green;
+}
+#contact {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+#contact h2 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+#contact .form-control {
+  background: #202020;
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+  margin-bottom: 20px;
+  transition: all 0.4s ease-in;
+  color: #fff;
+}
+#contact .form-control:focus {
+  background: #404040;
+}
+#contact input {
+  height: 53px;
+}
+.form-control::-moz-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color: #fff;
+}
+.form-control::-webkit-input-placeholder {
+  color: #fff;
+}
+#map-canvas
+  {
+    border: none;
+    width: 100%;
+    height: 300px;
+  }
+
+/* footer section */
+footer {
+  background: #1c1c1c;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+footer .fa {
+	font-size: 18px;
+	margin-right: 10px;
+	padding: 5px;
+}
+footer h3 {
+  padding-bottom: 10px;
+}
+footer .newsletter p {
+  padding-bottom: 10px;
+}
+footer .form-control {
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 0px;
+  padding-bottom: 10px;
+}
+
+footer .form-control:focus,
+footer .form-control:hover {
+	color: #fff;
+  	background: #806040;
+  	border-color: transparent;
+}
+footer .input-group-addon {
+  background: #fff;
+}
+footer a, footer a:visited {
+  font-size: 14px;
+  color: #999;
+}
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* copyright section */
+.copyright {
+	margin: 10px 0px;
+}
+.copyright p {
+  padding-top: 20px;
+}
+.social-icons {
+  padding: 0px;
+  margin: 0px;
+}
+.social-icons li {
+  display: inline-block;
+  list-style: none;
+  background: #303030;
+  margin: 10px 0px 0px 0px;
+}
+.social-icons li a {
+  color: #909090;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 15px;
+  text-align: center;
+  transition: all 0.4s ease-in;
+  
+}
+.social-icons li a:hover {
+  background: #d54ab6;
+  color: #fff;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 100px; /* Place the button at the bottom of the page */
+  right: 20px; /* Place the button 20px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+
+/* media 960 */
+@media ( max-width: 980px ) {
+  .divider .divider-wrapper {
+    margin-bottom: 20px;
+  }
+  #about .about-des {
+    padding-bottom: 40px;
+  }
+  #team .team-wrapper {
+    margin-bottom: 40px;
+  }
+  #contact h3 {
+    padding-top: 20px;
+  }
+  #contact .btn {
+    margin-bottom: 20px;
+  }
+  footer h3 {
+    padding-top: 30px;
+  }
+}
