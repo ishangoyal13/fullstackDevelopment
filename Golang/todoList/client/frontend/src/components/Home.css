@@ -1,0 +1,40 @@
+.upperCard {
+  height: 30vh;
+  width: 100vw;
+  background-image: url('https://wallpaperaccess.com/full/84248.png');
+  /* background-color: aliceblue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-content: space-between;
+  row-gap: 10px;
+  font-size: 20px;
+}
+
+.listCard {
+  width: 60%;
+  height: 3em;
+  border: .5px solid rgb(167, 19, 19);
+  /* background-image: url('https://www.momooze.com/wp-content/uploads/minimalist-aesthetic-desktop-wallpaper41.jpg'); */
+  background: aliceblue;
+}
+
+.listcardBody {
+  padding: .8rem;
+  text-align: left;
+}
+
+.todoinput {
+  border: none;
+  background: none;
+  font-weight: 550;
+  opacity: 1;
+  font-size: 20px;
+}

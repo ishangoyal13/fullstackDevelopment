@@ -1,0 +1,31 @@
+.homediv{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right : 0;
+  margin: auto;
+}
+form {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+  margin: auto;
+}
+
+input[type=text] {
+  width: 40%;
+  height: 5em;
+}
+input[type=submit]{
+  width:20%;
+  height: 5em;
+}
+
+
+input {
+  justify-content: space-around;
+  margin: 3%;
+  box-sizing: border-box;
+}
