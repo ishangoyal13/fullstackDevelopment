@@ -1,5 +1,5 @@
 <img src="https://i.ibb.co/rM3QW72/ishangoyal13-Hacktoberfest2021-Hacktoberfest-2021-contribution-repository-github-com.png" width="100%" >
-<h1 align="center"> 🎃 HacktoberFest-2021 🎃</h1>
+<h1 align="center"> 🎃 HacktoberFest-2022 🎃</h1>
 
 
 **Official Repository by for Hacktoberfest**
